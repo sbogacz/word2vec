@@ -30,6 +30,12 @@ unset __conda_setup
 
 If you source your shell, you should be able to run `which conda` and see it. If you run `conda env list` it should contain one environment name `base`.
 
+### Update Conda
+
+```sh
+conda update -n base -c defaults conda
+```
+
 ## Create the env
 
 Once you have conda installed and this repo checked out, you should be able to navigate to this repo and run
